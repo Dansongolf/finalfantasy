@@ -1,0 +1,269 @@
+a {
+  font-size: 2em;
+}
+
+body {
+  text-align: center;
+}
+
+html, body {
+  height: 100%;
+}
+
+body::after {
+  content: "";
+  background-image: url(https://geektogeekmedia.com/wp-content/uploads/2020/10/ffxivkeyart-e1602875399305.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+h1 {
+  font-family: 'Passions Conflict', cursive;
+  font-size: 15em;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+}
+
+h3 {
+  font-family: 'Noto Serif', serif;
+  font-size: 2.5em;
+}
+
+hr {
+  height: 0;
+  border-style: dotted none none;
+  border-top-width: 7px;
+  width: 2.5%;
+  color: gray;
+}
+p{
+  font-size: 1.5em;
+}
+
+.arcane {
+  height: 300px;
+  width: 300px;
+}
+
+.borek {
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75%;
+  width: 20%;
+
+}
+
+.borek-container{
+  margin: 100px auto 100px auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-align: right;
+  width: 50%;
+
+}
+
+.divine {
+  height: 300px;
+  width: 300px;
+}
+.estee{
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
+.estee-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 50%;
+}
+.finn{
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 20%;
+}
+.finn-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: right;
+  width: 50%;
+}
+.ishap{
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 75% 75% 75%;
+  width: 25%;
+}
+.ishap-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 50%;
+}
+.locations-container{
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: right;
+  width: 50%;
+}
+
+.magic {
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 20%;
+}
+
+.magic-container {
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: right;
+  width: 50%;
+}
+
+.map {
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 25%;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.noka{
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75%;
+  width: 30%;
+}
+
+.noka-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: right;
+  width: 50%;
+}
+.npc-container {
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: left;
+  width: 50%;
+}
+
+.npc-image {
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 30%;
+}
+
+.pc-container {
+  margin: 100px auto 100px auto;
+  padding: 20px 0;
+  text-align: right;
+  width: 50%;
+}
+
+.pc-images {
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 40% 75% 40% 75%;
+  width: 40%;
+}
+
+.primal {
+  height: 300px;
+  width: 300px;
+}
+
+.roscoe-image {
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 75% 75% 75%;
+  width: 20%;
+}
+
+.roscoe-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.rules-container {
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: left;
+  width: 50%;
+}
+
+.rules {
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
+
+.story {
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 25%;
+}
+
+.story-container {
+  margin: 100px auto 100px auto;
+  padding-bottom: 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.talents {
+  float: left;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 40% 75% 40%;
+  width: 20%;
+}
+
+.talents-container {
+  margin: 100px auto 100px auto;
+  padding: 10px 0;
+  text-align: left;
+  width: 50%;
+}
+.yxmaja{
+  float: right;
+  margin: 30px 30px 30px 30px;
+  border-radius: 75% 75% 75% 75%;
+  width: 30%;
+
+}
+.yxmaja-container{
+  margin: 100px auto 100px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: right;
+  width: 50%;
+}
